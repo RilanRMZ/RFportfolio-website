@@ -4,7 +4,7 @@ import { fadeIn } from "../../framerMotion/variants";
 function ResumeDownload() {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = `${import.meta.PUBLIC_URL}/resume.pdf`; // Change filename here
+    link.href = `https://r-fportfolio-website.vercel.app/Rilan-Full-Stack-Developer-Resume.pdf`; // Change filename here
     link.download = "Rilan-Full-Stack-Developer-Resume.pdf"; // This is the name it will be saved as
     document.body.appendChild(link);
     link.click();
