@@ -5,7 +5,7 @@ function ResumeDownload() {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = `${import.meta.PUBLIC_URL}/resume.pdf`; // Change filename here
-    link.download = "My_Resume.pdf"; // This is the name it will be saved as
+    link.download = "Rilan-Full-Stack-Developer-Resume.pdf"; // This is the name it will be saved as
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
