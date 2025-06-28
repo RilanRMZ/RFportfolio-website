@@ -23,7 +23,7 @@ const projects = [
     year: "Jan2023",
     align: "right",
     image: "../../public/images/doc-appoinment.webp",
-    link: "#",
+    link: "https://doctor-appoinment-app-zeta.vercel.app",
   },
   {
     name: "Movie App",
