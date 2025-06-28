@@ -1,6 +1,7 @@
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import PropTypes from "prop-types";
 
 const SingleProject = ({ name, year, align, image, link }) => {
   return (
@@ -39,6 +40,14 @@ const SingleProject = ({ name, year, align, image, link }) => {
       </div>
     </motion.div>
   );
+};
+
+SingleProject.propTypes = {
+  name: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
+  align: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default SingleProject;

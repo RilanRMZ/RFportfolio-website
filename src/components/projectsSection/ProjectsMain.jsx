@@ -8,14 +8,14 @@ const projects = [
     name: "E-Commerce Website",
     year: "Mar2021",
     align: "right",
-    image: "../../public/images/ecommerce-plateform.webp",
+    image: "/images/ecommerce-plateform.webp",
     link: "https://best-online-shop-client.onrender.com",
   },
   {
     name: "Chat App",
     year: "Sept2022",
     align: "left",
-    image: "../../public/images/chatApp.webp",
+    image: "/images/chatApp.webp",
     link: "https://chatapp-frontend-642m.onrender.com",
   },
   {
@@ -29,14 +29,14 @@ const projects = [
     name: "Movie App",
     year: "May2024",
     align: "left",
-    image: "../../public/images/movie-app.webp",
+    image: "/images/movie-app.webp",
     link: "https://moonflix-client.onrender.com",
   },
   {
     name: "NASA App",
     year: "May2024",
     align: "right",
-    image: "../../public/images/nasa-app.webp",
+    image: "/images/nasa-app.webp",
     link: "https://nasa-project-client-beta.vercel.app/",
   },
 ];
